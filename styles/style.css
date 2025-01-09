@@ -133,17 +133,17 @@
   text-align: center;
 }
 
-.party-join-now h4{
+.party-join-now h4 {
   font-size: 32px;
   font-weight: 600;
   line-height: 12px;
 }
 
-.join-now-details h4 span{
+.join-now-details h4 span {
   color: rgb(255, 0, 0);
 }
 
-.join-now-details button{
+.join-now-details button {
   font-size: 20px;
   font-weight: 700;
   color: white;
@@ -152,4 +152,53 @@
   border-radius: 8px;
   padding: 16px 32px 16px 32px;
   margin-top: 15px;
+}
+
+/* coming-soon */
+
+.coming-soon{
+  width: 1320px;
+  height: 463px;
+  margin: 120px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+.section1 .sec-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+  margin-bottom: -27px;
+}
+
+.section1 .sec-subtitle {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+  margin-bottom: 5px;
+}
+
+.section1,
+.section2 .sec-des {
+  font-size: 20px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.section2 .year-title {
+  font-size: 48px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  margin-bottom: 8px;
+}
+
+.coming-soon>img {
+  border: 15px solid rgb(255, 0, 0);
+  padding: 35px;
+  border-radius: 50%;
+}
+
+.section2 img{
+  margin-top: 35px;
 }
