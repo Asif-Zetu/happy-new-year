@@ -259,3 +259,116 @@
   width: 305px;
   height: 305px;
 }
+
+/* portfolio */
+
+.portfolio {
+  width: 1320px;
+  height: 1163px;
+  margin: 120px auto;
+}
+
+.portfolio .portfolio-subtitle {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(255, 0, 0);
+}
+
+.portfolio .portfolio-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+  margin-top: -15px;
+}
+
+.portfolio .portfolio-info p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -15px;
+}
+
+.portfolio .portfolio-img-container {
+  margin: 60px auto;
+}
+
+.portfolio-img-container .port-img {
+  width: 424px;
+  height: 450px;
+  border-radius: 16px;
+  margin: -4px 16px 16px 0;
+}
+
+/* subscriber */
+
+.subscriber {
+  margin: 120px auto;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  width: 1320px;
+  height: 716px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.subscriber-info {
+  width: 896px;
+}
+
+.subscriber .subscriber-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(7, 2, 17);
+  margin-bottom: -1px;
+}
+
+.subscriber p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.subscriber #sub-input {
+  border: none;
+  border-radius: 50px;
+  background: rgb(255, 255, 255);
+  width: 648px;
+  height: 72px;
+  padding-left: 40px;
+}
+
+.subscriber-info ::placeholder {
+  color: rgba(7, 2, 17, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.subscriber button {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  width: 210px;
+  height: 72px;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 0 50px 50px 0;
+}
+
+.subscriber-merger {
+  width: 648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.subscriber-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
