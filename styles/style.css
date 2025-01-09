@@ -156,7 +156,7 @@
 
 /* coming-soon */
 
-.coming-soon{
+.coming-soon {
   width: 1320px;
   height: 463px;
   margin: 120px auto;
@@ -193,12 +193,69 @@
   margin-bottom: 8px;
 }
 
-.coming-soon>img {
+.coming-soon > img {
   border: 15px solid rgb(255, 0, 0);
   padding: 35px;
   border-radius: 50%;
 }
 
-.section2 img{
+.section2 img {
   margin-top: 35px;
+}
+
+/* holiday-sale */
+
+.holiday-sale {
+  background-image: url("../images/Rectangle\ 2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 1320px;
+  height: 986.07px;
+  margin: 120px auto;
+}
+
+.holiday-sale .sec-subtitle {
+  font-size: 24px;
+  font-weight: 500px;
+  color: rgb(7, 2, 17);
+  margin-bottom: -30px;
+}
+
+.holiday-sale span {
+  color: rgb(255, 0, 0);
+}
+
+.holiday-sale .sec-title {
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-sale .sec-des {
+  font-size: 20px;
+  font-weight: 500;
+  margin: -30px 210px;
+  line-height: 30px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.holiday-sale .sec-info {
+  text-align: center;
+}
+
+.holiday-sale .sec-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.holiday-sale .img1 {
+  width: 674px;
+  height: 577px;
+  margin-bottom: -320px;
+}
+
+.holiday-sale .img2 {
+  width: 305px;
+  height: 305px;
 }
